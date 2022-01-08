@@ -13,6 +13,6 @@ resource "google_compute_subnetwork" "private" {
   private_ip_google_access = true
 }
 
-output "subnet_id" {
+output "subnet_id_1" {
   value = google_compute_network.vpc.name
 }
