@@ -1,5 +1,5 @@
 resource "google_compute_network" "vpc" {
-  name                    = my-vpc
+  name                    = "my-vpc"
   description             = "vpc for wordpress instances"
   routing_mode            = "REGIONAL"
   auto_create_subnetworks = false
