@@ -12,3 +12,7 @@ resource "google_compute_subnetwork" "private" {
   network       = google_compute_network.vpc.self_link
   private_ip_google_access = true
 }
+
+output "subnet_id" {
+  value = google_compute_subnetwork.private.id
+}
