@@ -14,5 +14,5 @@ resource "google_compute_subnetwork" "private" {
 }
 
 output "subnet_id" {
-  value = google_compute_subnetwork.private.id
+  value = google_compute_subnetwork.private.network.name
 }
