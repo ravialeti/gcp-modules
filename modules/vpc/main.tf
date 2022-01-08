@@ -14,5 +14,5 @@ resource "google_compute_subnetwork" "private" {
 }
 
 output "subnet_id" {
-  value = google_compute_subnetwork.private
+  value = google_compute_network.vpc.name
 }
