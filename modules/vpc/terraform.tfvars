@@ -1,0 +1,10 @@
+project_id = "my-iac"
+vpc_name   = "wp-vpc"
+region     = "us-east1" 
+vm_zone    = "us-east1-b"
+db_user    = "wp-user"
+ip_cidr_range  = "192.168.24.0/24"
+vm_type    = "f1-micro"
+vm_image   = "debian-cloud/debian-10"
+vm_size    = "10"
+tags       = ["https","http"]
