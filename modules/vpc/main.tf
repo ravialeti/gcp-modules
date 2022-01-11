@@ -14,6 +14,3 @@ resource "google_compute_subnetwork" "sub" {
   private_ip_google_access = true
 }
 
-output "subnet_id" {
-  value = google_compute_subnetwork.sub.name #If you want to show output from main module, this must be decalred in child module
-}
