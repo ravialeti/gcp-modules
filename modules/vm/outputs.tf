@@ -2,7 +2,7 @@ output "vm_name" {
     value = google_compute_instance.wp-vm.name
 }
 
-output "netowrk_ip" {
-    value = google_compute_instance.wp-vm.netowrk_ip
+output "network_ip" {
+    value = google_compute_instance.wp-vm.network_ip
 }
 
