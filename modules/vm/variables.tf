@@ -18,5 +18,9 @@ variable "vm_size" {
    description = "VM size GB"
   }
 
+variable "subnet_name" {
+   description = "Subnet name from vpc module"
+}
+
 
 

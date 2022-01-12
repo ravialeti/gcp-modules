@@ -10,7 +10,7 @@ resource "google_compute_instance" "wp-vm" {
     }
   }
    network_interface {
-    subnetwork = "${google_compute_subnetwork.sub.name}"
+    subnetwork = var.subnet_name
     access_config {
       // Ephemeral IP
     }
