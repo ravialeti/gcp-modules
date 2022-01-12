@@ -3,5 +3,5 @@ output "vm_name" {
 }
 
 output "public_ip" {
-    value = google_compute_instance.wp-vm.external_ip
+    value = google_compute_instance.wp-vm.network_ip
 }
