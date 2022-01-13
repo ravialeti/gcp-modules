@@ -7,5 +7,3 @@ variable "sub_name" {
 variable "region_name" {
    description = "GCP Zone for vm"
   }
-
-
