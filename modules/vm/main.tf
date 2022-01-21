@@ -1,4 +1,6 @@
 resource "google_compute_instance" "wp-vm" {
+  count         = 3
+  #name          = var.instance_name
   tags = {
     Name = "vm001-${count.index}"
          }
