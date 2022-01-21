@@ -1,5 +1,5 @@
 output "vm_name" {
-    value = google_compute_instance.wp-vm[count.index]
+    value = google_compute_instance.wp-vm.*
 }
 
 output "internal_ip" {
