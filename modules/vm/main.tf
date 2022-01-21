@@ -1,9 +1,7 @@
 resource "google_compute_instance" "wp-vm" {
-  count         = 3
+  count         = var.num_instances
   #name          = var.instance_name
-  tags = {
-    name = "vm001-${count.index}"
-         }
+  name = "vm001-${count.index}"
   machine_type  = var.vm_type
   zone          = var.vm_zone
   #tags          = var.instance_tags
