@@ -6,7 +6,7 @@ resource "google_compute_instance" "wp-vm" {
          }
   machine_type  = var.vm_type
   zone          = var.vm_zone
-  tags          = var.instance_tags
+  #tags          = var.instance_tags
   boot_disk {
     initialize_params {
      image = var.vm_image
