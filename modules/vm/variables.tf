@@ -8,9 +8,9 @@ variable "vm_zone" {
    description = "GCP Zone for vm"
   }
 #variable "instance_tags" {
-   type        = list
-   description = "Network tags used for vm and subnets"
-  }
+#   type        = list
+#   description = "Network tags used for vm and subnets"
+#  }
 variable "vm_image" {
    description = "VM Machine type"
   }
