@@ -7,6 +7,6 @@ output "internal_ip" {
 }
 
 output "gce_machines" {
-    value = google_compute_instance.wp-vm.*.arn  # Here * indicates that there are more than one arn as we used count as 4   
+    value = google_compute_instance.wp-vm.*  # Here * indicates that there are more than one arn as we used count as 4   
 }
  
