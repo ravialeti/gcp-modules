@@ -21,5 +21,8 @@ variable "subnet_name" {
    description = "Subnet name from vpc module"
 }
 
+variable "num_instances" {
+   description = "Subnet name from vpc module"
+}
 
 
