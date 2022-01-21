@@ -1,5 +1,6 @@
 output "vm_name" {
     value = google_compute_instance.wp-vm.*
+    sensitive = true
 }
 
 output "internal_ip" {
