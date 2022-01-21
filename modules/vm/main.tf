@@ -1,5 +1,5 @@
 resource "google_compute_instance" "wp-vm" {
-  count         = 3
+  #count         = 3
   name          = var.instance_name
   machine_type  = var.vm_type
   zone          = var.vm_zone
