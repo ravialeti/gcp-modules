@@ -1,6 +1,9 @@
 variable "instance_name" {
    description = "GCP Zone for vm"
   }
+variable "instance_count" {
+   description = "GCP Zone for vm"
+  }
 variable "vm_type" {
    description = "VM Machine type"
   }
