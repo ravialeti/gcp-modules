@@ -7,7 +7,7 @@ variable "vm_type" {
 variable "vm_zone" {
    description = "GCP Zone for vm"
   }
-#variable "instance_tags" {
+#variable "tags" {
 #   type        = list
 #   description = "Network tags used for vm and subnets"
 #  }
