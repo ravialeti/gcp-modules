@@ -5,7 +5,8 @@ resource "google_compute_instance" "wp-vm" {
   machine_type  = var.vm_type
   zone          = var.vm_zone
   tags          = var.tags
-  metadata_startup_script = var.startup_script
+  metadata_startup_script = file("${var.startup_script}")
+  #metadata_startup_script = file("./apache2.sh")
   boot_disk {
     initialize_params {
      image = var.vm_image
