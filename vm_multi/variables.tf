@@ -25,4 +25,6 @@ variable "num_instances" {
    description = "Subnet name from vpc module"
 }
 
-
+variable "metadata_startup_script" {
+   description = "startup script"
+}
