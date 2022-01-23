@@ -20,7 +20,6 @@ variable "vm_size" {
 variable "subnet_name" {
    description = "Subnet name from vpc module"
 }
-
-
-
-
+variable "startup_script" {
+   description = "startup script path"
+}
