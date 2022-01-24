@@ -1,3 +1,4 @@
+#Basic single VM 
 resource "google_compute_instance" "wp-vm" {
   name          = var.instance_name
   machine_type  = var.vm_type

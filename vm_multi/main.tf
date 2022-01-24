@@ -1,3 +1,4 @@
+#VM module to create multiple instances using subnet
 resource "google_compute_instance" "wp-vm" {
   count         = var.num_instances
   #name          = var.instance_name

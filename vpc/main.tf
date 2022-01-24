@@ -1,3 +1,4 @@
+#VPC for basic testing purpose
 resource "google_compute_network" "my-vpc" {
   name                    = var.vpc_name
   description             = "vpc for wordpress instances"
